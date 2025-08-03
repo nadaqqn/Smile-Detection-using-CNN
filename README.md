@@ -25,3 +25,8 @@ The model classifies whether a person is smiling or not based on **grayscale fac
 - Works even under varied lighting and angles due to data augmentation
 - Predictions show confidence scores, making the output interpretable
 
+## 🧠 Future Improvements
+- Use the entire CelebA dataset to improve accuracy
+- Implement real-time webcam detection
+- Apply transfer learning (e.g. MobileNetV2, EfficientNet)
+- Improve robustness to lighting, occlusion, and expressions
