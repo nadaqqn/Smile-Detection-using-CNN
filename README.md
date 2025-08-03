@@ -19,3 +19,9 @@ The model classifies whether a person is smiling or not based on **grayscale fac
 - Resize to **64x64**
 - Normalize pixel values to **[0–1]**
 - Labels are extracted from `list_attr_celeba.txt`
+
+## 🎯 Results
+- The CNN model successfully detects smiles with high accuracy
+- Works even under varied lighting and angles due to data augmentation
+- Predictions show confidence scores, making the output interpretable
+
